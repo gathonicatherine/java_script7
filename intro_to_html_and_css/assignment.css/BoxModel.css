@@ -1,0 +1,14 @@
+body{
+    background-color: burlywood;
+       width: 400px;
+       border: 30px solid greenyellow;
+       padding: 20px;
+       margin: 40px;
+}
+.quiz{
+    background-color: blueviolet;
+    width: 300px;
+    border: 40px solid paleturquoise;
+    padding: 20px;
+    margin: 20px;
+}
