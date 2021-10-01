@@ -1,0 +1,123 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 300px;
+}
+body{
+    background-color: #d6c6ed;
+}
+.navbar {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 6px 15px;
+    transition:none ;
+}
+.navbar ul li a:hover{
+   background-color: white;
+   color: black;
+}
+.head{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 900;
+    font-family: sans-serif; 
+}
+/* ABOUT ME */
+#about{
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-bottom: 60px;
+    height: 500px;
+}
+#picture{
+    display: flex;
+}
+#picture img{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+    background-color: #d6c6ed;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    background-color: #d6c6ed;
+}
+#intro p{
+    text-align: center;
+}
+#picture::before{
+    content: "";
+    display: table;
+}
+.heading{
+    text-align:center;
+    font-size: 15px;
+}
+/* Projects */
+#projects{
+    display: flex;
+    flex-direction: column;
+    background-color:#d6c6ed ;
+    color: white;
+    align-items: center;
+    padding: 30px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 40px;
+    height: 300px;
+    margin: 20px;
+}
+/* PROJECT SECTION */
+#projects{
+    display: flex;
+    flex-direction: column;
+    background-color: #d6c6ed;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 40px;
+    height: 300px;
+    margin: 20px;
+}

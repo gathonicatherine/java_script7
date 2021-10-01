@@ -97,11 +97,7 @@ let order=new Mkulima();
  console.log(order.addFarm("2138721364yruew","PLanet farm","Nanasi","43759821","kitui"));
  console.log(order.addFarm("Gishagi","That one-shop farm","Lee Muirir","2039498735","makueni"));
  console.log(order.getFarm("2138721364yruew"));
- console.log(order.removeFarm("Gishagi"));
  console.log(order.addProduct("maah","avocados",500 ));
  console.log(order.addProduct("yumm","totmatoes",1600));
- console.log(order.getProduct("yumm"))
- console.log(order.removeProduct("maah"));
- console.log(order.updateProduct("maah","quava",800));
- order.printProduct();
  console.log(order.calculateOrderCost("yumm",9));
+
